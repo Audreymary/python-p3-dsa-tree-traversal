@@ -3,8 +3,9 @@ class Tree:
     self.root = root
 
   def get_element_by_id(self, id):
-    nodes_to_visit = [self.root]
+      nodes_to_visit = [self.root]
 
+      pass
     while nodes_to_visit:
       current = nodes_to_visit.pop()
       if current['id'] == id:
